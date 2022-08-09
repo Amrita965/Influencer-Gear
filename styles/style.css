@@ -11,6 +11,41 @@ body {
     color: #3A3A3A;
 }
 
+nav {
+    margin-top: 87px;
+    margin-bottom: 87px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-magnifying-glass, .fa-cart-plus {
+    font-size: 26px;
+}
+
+nav .shop-name {
+    font-size: 24px;
+}
+
+nav a {
+    margin-right: 34px;
+    color:  #3A3A3A;
+    display: block;
+    text-decoration:  none;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 main {
     width: 1240px;
     margin: 0 auto;
@@ -81,6 +116,10 @@ main {
 .gadget {
     padding: 17px 15px;
     box-shadow: 15px 15px 15px rgb(231, 231, 231);
+}
+
+.gadget .fa-star, .fa-star-half-stroke {
+    color: #FB8200;
 }
 
 .gadget img {
@@ -195,7 +234,7 @@ footer {
     }
 
     .featured-product .content .description {
-        width: 100%;
+        width: auto;
     }
 
     .featured-product .thumbnail {
